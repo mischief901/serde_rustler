@@ -2,8 +2,8 @@
 name = "serde_rustler"
 description = "Serde Serializer and Deserializer for Rustler NIFs"
 version = "0.0.3"
-authors = ["Sunny G <sunny.gonna@gmail.com>"]
-repository = "https://github.com/sunny-g/serde_rustler"
+authors = ["Mischief901 <alex.misch@tulip.co>"]
+repository = "https://github.com/mischief901/serde_rustler"
 categories = ["encoding", "external-ffi-bindings", "serde", "rustler", "elixir"]
 readme = "README.md"
 license = "MIT"
@@ -17,8 +17,6 @@ crate-type = ["rlib"]
 [dependencies]
 lazy_static = "1.0"
 quick-error = "1.2"
-rustler = {git="https://github.com/rusterlium/rustler.git",
-        rev="144d89bb38b7daae5d97c3fbe16da0732cb9bdc3"}
-rustler_codegen = {git="https://github.com/rusterlium/rustler.git",
-                rev="144d89bb38b7daae5d97c3fbe16da0732cb9bdc3"}
+rustler = {git="https://github.com/rusterlium/rustler.git", rev="144d89bb38b7daae5d97c3fbe16da0732cb9bdc3"}
+rustler_codegen = {git="https://github.com/rusterlium/rustler.git", rev="144d89bb38b7daae5d97c3fbe16da0732cb9bdc3"}
 serde = "1.0"
